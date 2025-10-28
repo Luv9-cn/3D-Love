@@ -23,10 +23,10 @@
 1. 克隆仓库
    ```bash
    git clone https://github.com/Luv9-cn/3D-Love.git
-   ```
-2. 进入项目根目录，用浏览器打开 `index.html` 文件启动项目。
+    ```                                                            
+- 2. 进入项目根目录，用浏览器打开 `index.html` 文件启动项目。
 
-## 背景音乐自定义指南
+- ## 背景音乐自定义指南
 
 ### 方式一：本地 MP3 音频（推荐离线使用）
 1. 准备 MP3 格式音频（比特率 128-320kbps 为佳）。
@@ -36,7 +36,7 @@
    <audio id="backgroundMusic" loop preload="auto">
      <source src="替换为本地音频路径" type="audio/mpeg">
    </audio>
-   ```
+     ```
 4. 保存后刷新浏览器生效。
 
 ### 方式二：网易云音乐直链（推荐在线使用）
@@ -47,7 +47,7 @@
 5. 替换 `index.html` 中 `<source>` 标签的 `src` 属性，保存刷新即可。
 
 ## 项目结构
-```
+       ```
 3D-Love/
 ├── index.html          # 主页面（含音频配置、DOM 结构）
 ├── favicon.ico         # 网页图标
@@ -59,7 +59,7 @@
     ├── OBJLoader.js           # 3D 模型加载器
     ├── gsap.min.js            # 动画补间库
     └── main.js                # 3D 效果核心逻辑
-```
+        ```
 
 ## 配置与自定义扩展
 ### 音频参数调整
@@ -94,6 +94,3 @@
 ## 联系方式
 项目地址：[https://github.com/Luv9-cn/3D-Love](https://github.com/Luv9-cn/3D-Love)
 原教程：[Three.js动态网页优化:背景音乐自定义教程](https://www.luv9.cn/archives/t5jgvsVX)
-```
-
-以上内容已完全包裹在代码框中，可直接复制保存为 `README.md` 文件使用。如果需要进一步调整格式或内容细节，请随时告知。
